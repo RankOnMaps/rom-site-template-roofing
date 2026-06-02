@@ -1,0 +1,41 @@
+name: Configure new client
+
+# Manually triggered from the Actions tab. Reads data/client.json,
+# runs scripts/setup_client.py to rewrite build.py + data files
+# with the new client's brand strings, then commits the changes back.
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  configure:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run setup_client.py
+        run: python3 scripts/setup_client.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "rom-site-bot"
+          git config user.email "hello@rankonmaps.io"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Configure client from data/client.json"
+            git push
+          fi

@@ -1,0 +1,15 @@
+{
+  "_comment": "Per-client brand tokens. Neutral defaults. NOT ROM brand. Overridden per client at deploy time.",
+  "primary": "#0E1F36",
+  "secondary": "#B73230",
+  "accent": "#F4B860",
+  "text": "#0F172A",
+  "text_muted": "#475569",
+  "bg": "#FFFFFF",
+  "bg_alt": "#F8FAFC",
+  "border": "#E2E8F0",
+  "headline_font": "system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif",
+  "body_font": "system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif",
+  "mono_font": "ui-monospace, 'SF Mono', Menlo, monospace",
+  "logo_url": ""
+}

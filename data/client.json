@@ -1,0 +1,150 @@
+{
+  "_comment": "Master config for this client site. Every value here is client-specific. Edit this file, run scripts/setup_client.py, then push.",
+
+  "brand": {
+    "name": "Austin Area Roofers",
+    "name_short": "Austin Area Roofers",
+    "parent_name": "REPS of Texas",
+    "tagline": "Roofer of Integrity. One name on every job.",
+    "vertical": "roofing",
+    "vertical_label_singular": "Roofer",
+    "vertical_label_plural": "Roofers"
+  },
+
+  "site": {
+    "url": "https://austinarearoofers.com",
+    "domain_apex": "austinarearoofers.com",
+    "cloudflare_project_name": "austin-area-roofers"
+  },
+
+  "contact": {
+    "phone": "512-802-2272",
+    "phone_display": "(512) 802-2272",
+    "email": "info@austinarearoofers.com",
+    "address": {
+      "street": "500 S Lamar Blvd",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78704",
+      "country": "US"
+    },
+    "geo": {
+      "lat": 30.260755,
+      "lng": -97.7588652
+    },
+    "hours": {
+      "mon": "07:00-18:00",
+      "tue": "07:00-18:00",
+      "wed": "07:00-18:00",
+      "thu": "07:00-18:00",
+      "fri": "07:00-18:00",
+      "sat": "08:00-14:00",
+      "sun": "closed"
+    },
+    "quote_url": "https://repsoftexas.sky-quote.com/Instant-Estimate"
+  },
+
+  "market": {
+    "primary_city": "Austin",
+    "region": "Central Texas",
+    "region_descriptor": "Hill Country",
+    "state_long": "Texas",
+    "state_abbr": "TX",
+    "metro_label": "Austin Metro",
+    "service_radius_miles": 75,
+    "primary_counties": ["Travis County", "Williamson County"],
+    "signature_neighborhoods": ["Tarrytown", "Pemberton Heights", "Old Enfield", "Bryker Woods", "Westlake Hills"]
+  },
+
+  "stats": {
+    "years_in_business": 27,
+    "jobs_completed": "7,000+",
+    "review_rating": 5,
+    "review_count": "21",
+    "founded_year_text": "1998"
+  },
+
+  "founder": {
+    "name": "Benny",
+    "first_name": "Benny",
+    "title": "Master Roofer · Founder",
+    "years_experience": 27,
+    "started_age": 18,
+    "current_age": 45,
+    "bio_short": "Benny has installed roofs in Central Texas since he was eighteen. Twenty-seven years on the trade. Seven thousand Austin homes protected. He walks every estimate himself. No franchise crews, no day labor, no subcontracted strangers on your property.",
+    "bio_long": "Benny started at eighteen. Forty-five now. Twenty-seven straight years on roofs and nothing else. He works twenty-five days a month, takes Sunday off, and is on a job every other one.",
+    "signature_skills": [
+      "Water-flow engineering on Hill Country pitches",
+      "Hand-built crickets behind every chimney and roof penetration",
+      "Custom welded flashings, copper-leaded chimney work, and hand-set lead boots",
+      "Standing seam metal hand-folded, hand-snapped, and hand-welded at every transition",
+      "Historic Central Texas re-roofs across Tarrytown, Pemberton Heights, Old Enfield",
+      "Two-layer underlayment and six-nail-per-shingle high-wind specifications"
+    ]
+  },
+
+  "second_founder": {
+    "name": "Dennis White",
+    "first_name": "Dennis",
+    "title": "Co-Founder · Operations",
+    "bio_short": "Dennis cut his teeth in roofing in 2005, in the storm-recovery wake of Hurricanes Rita and Katrina. Three years working roofs in Beaumont, Texas. He came home to Austin to build the operation alongside his brother-in-law Benny.",
+    "background": "Dennis runs operations, customer experience, and the REPS family of companies."
+  },
+
+  "company_story": {
+    "headline": "A family-built Central Texas roofing crew. One name on every roof.",
+    "narrative": "REPS of Texas is a family-built operation founded by Benny and his brother-in-law Dennis. Twenty-seven years of master-tier craftsmanship. Every install carries Benny's name. Every estimate is walked by Benny personally. No subcontracted strangers, no franchise crews, no day-labor.",
+    "family_of_companies": [
+      {"name": "Austin Area Roofers", "role": "Roofing division", "url": "https://austinarearoofers.com"}
+    ]
+  },
+
+  "certifications": [
+    {"name": "IKO ROOFPRO™", "tier": "premium", "note": "IKO ROOFPRO certified installer."},
+    {"name": "Decra™ Certified Installer", "tier": "premium", "note": "Decra stone-coated steel manufacturer certification."},
+    {"name": "DaVinci™ Masterpiece Contractor", "tier": "premium", "note": "DaVinci synthetic slate top-tier installer."},
+    {"name": "BBB Accredited Business", "tier": "trust", "note": "Accredited with the Better Business Bureau."},
+    {"name": "Bonded · Insured", "tier": "trust"}
+  ],
+
+  "signature_specialties": [
+    {
+      "name": "Custom Metalwork · Hand-Built On-Site",
+      "summary": "Chimney crickets, copper-leaded chimney flashings, hand-welded penetration details. Every piece cut, folded, and welded on your driveway.",
+      "anchor": "custom-metalwork"
+    },
+    {
+      "name": "Standing Seam Metal · 22-Gauge",
+      "summary": "Snap-lock and concealed-fastener systems in 22-gauge G90 galvalume. 40-50 years of service life. Class 4 impact rated.",
+      "anchor": "standing-seam"
+    }
+  ],
+
+  "social": {
+    "google": "https://maps.google.com/?cid=[TBC]",
+    "facebook": "https://www.facebook.com/profile.php?id=61577915217996",
+    "instagram": "https://www.instagram.com/reps.of.texas/"
+  },
+
+  "links": {
+    "bbb_profile": "https://www.bbb.org/us/tx/austin/profile/roofing-contractors/reps-austin-area-roofer-0825-1000256943",
+    "bbb_seal_image": "https://seal-austin.bbb.org/seals/blue-seal-160-82-bbb-1000256943.png"
+  },
+
+  "tracking": {
+    "ga4_measurement_id": "G-5MQ36NVV7W",
+    "wc_account_id": "115608",
+    "wc_profile_id": "168982",
+    "wc_tracker_host": "s.ksrndkehqnwntyxlhgto.com",
+    "indexnow_key": "77635e3bb7a1f333f7e24e241de85cf2",
+    "_note": "WhatConverts profile lives at app.whatconverts.com. GA4 lives under hello@rankonmaps.io. IndexNow key file must match the value and be saved at site/<KEY>.txt + site/.indexnow-key.txt"
+  },
+
+  "deploy": {
+    "cloudflare_account_id_secret": "CLOUDFLARE_ACCOUNT_ID",
+    "cloudflare_api_token_secret": "CLOUDFLARE_API_TOKEN",
+    "_note": "Both secrets must be set under repo Settings → Secrets and variables → Actions. ROM Cloudflare account ID is in 1Password (entry: ROM Cloudflare)."
+  },
+
+  "service_areas_summary": "Austin and the surrounding Central Texas metro. A seventy-five mile service radius across Travis County and Williamson County."
+}
