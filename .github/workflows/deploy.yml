@@ -1,9 +1,10 @@
 name: Build and deploy to Cloudflare Pages
 
 on:
-  push:
-    branches: [main]
   workflow_dispatch: {}
+  # auto-deploy disabled on this template repo (it is starter code, not a site)
+  # client repos forked from this template re-enable push triggers via setup_client.py
+
 
 jobs:
   deploy:
